@@ -1,0 +1,8 @@
+Merge (P9:Paper {title:"Buyeroptimal-Algorithmic-Consumption"})
+With P9
+Match (C9:Category {title:"Economics"})
+Merge (P9)-[:isPaperIn]->(C9)
+Merge (A9A1:Author {name:"Shota-Ichihashi"})
+Merge (P9)-[:isWrittenBy]->(A9A1)
+Merge (A9A2:Author {name:"Alex-Smolin"})
+Merge (P9)-[:isWrittenBy]->(A9A2)
