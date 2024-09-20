@@ -1,8 +1,7 @@
-Merge (P9:Paper {title:"Buyeroptimal-Algorithmic-Consumption"})
-With P9
-Match (C9:Category {title:"Economics"})
-Merge (P9)-[:isPaperIn]->(C9)
-Merge (A9A1:Author {name:"Shota-Ichihashi"})
-Merge (P9)-[:isWrittenBy]->(A9A1)
-Merge (A9A2:Author {name:"Alex-Smolin"})
-Merge (P9)-[:isWrittenBy]->(A9A2)
+Merge (:Category {title:"Economics"})
+Merge (P10:Paper {title:"A-Note-On-The-Stability-Of-Monotone-Markov-Chains"})
+With P10
+Match (C10:Category {title:"Economics"})
+Merge (P10)-[:isPaperIn]->(C10)
+Merge (A10A1:Author {name:"Bar-Light"})
+Merge (P10)-[:isWrittenBy]->(A10A1)
